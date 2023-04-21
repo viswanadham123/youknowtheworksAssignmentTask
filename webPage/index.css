@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    background-color: #ffa1a9;
+    color: #2a2a63;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto";
+}
+@media screen and (max-width: 767px) {
+    .vertical-line{
+        border-left: 4px solid #2a2a63;
+        height: 112.5%;
+    }
+    .horizontal-line{
+        border: 2px solid #2a2a63;
+        width: 90%;
+    }
+    .profile{
+        margin-top: 30px;
+        height: 25%;
+        display: flex;
+        
+    }
+    .profile-container{
+        padding:18px;
+        text-align: center;
+    }
+    .info-user{
+        width: 42%;
+    }
+    .title-name{
+        font-size: 4vw;
+    }
+   .title-profession{
+        font-size: 3.5vw;
+    }
+    .address{
+        padding-left: 12px;
+        font-size: 10px;
+        line-height: 0.9;
+    }
+    .work{
+        height: 24%;
+        width: 100vw;
+        font-size: 12px;
+        line-height: 1;
+    }
+    .year{
+        margin-right: 20px;
+    }
+    .skill-container{
+        padding-right:20px;
+        width: 50%;
+    }
+    .skills-awards{
+        height: 27%;
+        font-size: 12px;
+        
+    }
+    .circle-space{
+        margin-right:5px;
+    }
+    .skill-item{
+        line-height: 2;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .skill-sub-item{
+        width: 40%;
+        display:flex;
+        align-items: flex-end;
+    }
+    .awards{
+        padding-left: 20px;
+        line-height: 1.2;
+    }
+    .intrests{
+        width: 100vw;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        
+    }
+    .image-container{
+        width: 100%;
+        display: flex;
+        font-size: 3vh;
+        justify-content: space-around;
+    }
+    .image{
+        margin-bottom: 10px;
+    }
+    .education{
+        font-size: 13px;
+        width: 100vw;
+        display:flex;
+        align-items:center;
+    }
+    .bold-text{
+        font-weight:bold;
+    }
+    .award-span{
+        margin-right: 10px;
+    }
+        .circle12{
+        height: 2vw;
+        width: 2vw;
+        border-radius: 1vw;
+        background-color:#2a2a63 ;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 767px) and (max-width: 2880px) {
+    .vertical-line{
+        border-left: 4px solid #2a2a63;
+        height:100%;
+    }
+    .horizontal-line{
+        border: 2px solid #2a2a63;
+        width: 90%;
+    }
+    .profile{
+        margin-top: 30px;
+        height: 25%;
+        display: flex;
+        
+    }
+    .profile-container{
+        padding:18px;
+        text-align: center;
+    }
+    .info-user{
+        width: 42%;
+    }
+    .title-name{
+        font-size:4vh;
+    }
+    .title-profession{
+        font-size: 2vh;
+    }
+    .address{
+        padding-left: 12px;
+        font-size: 2vh;
+        line-height: 0.9;
+    }
+    .work{
+        height: 24%;
+        width: 100vw;
+        font-size: 12px;
+        line-height: 1;
+    }
+    .year{
+        margin-right: 5vh;
+        font-size: 2vh;
+        
+    }
+    .skill-container{
+        padding-right:20px;
+        width: 50%;
+    }
+    .skills-awards{
+        height: 27%;
+        font-size: 12px;
+        
+    }
+    .circle-space{
+        margin-right:5px;
+    }
+    .skill-item{
+        line-height: 2;
+        display: flex;
+        justify-content: space-between;
+    }
+    .skill-sub-item{
+        width: 40%;
+        display:flex;
+        align-items: center;
+    }
+    .awards{
+        padding-left: 20px;
+        line-height: 1.2;
+    }
+    .intrests{
+        width: 100vw;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        
+    }
+    .image-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .image{
+        margin-bottom: 10px;
+    }
+    .education{
+        font-size: 13px;
+        width: 100vw;
+        display:flex;
+        align-items:center;
+    }
+    .bold-text{
+        font-weight:bold;
+        font-size: 2vh;
+    }
+    .award-span{
+        margin-right: 10px;
+        font-size:2vh;
+    }
+    .text1{
+font-size: 2vh;
+    }
+    .circle12{
+        height: 2vw;
+        width: 2vw;
+        border-radius: 1vw;
+        background-color:#2a2a63 ;
+        margin-right: 10px;
+    }
+    
+}
